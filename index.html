@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Home</title>
+</head>
+<body>
+    <div class="container">
+        <input type="checkbox" name="tema" id="tema">
+
+        <!--CABEÇALHO-->
+        <header class="top">
+
+            <!--Image Logo-->
+            <figure class="cabecalho__logo">
+                <img src="./assets/img/icons8-twitter-48.png" alt="Logo clone twitter">
+                <figcaption hidden>Logo clone twitter</figcaption>
+            </figure>
+
+            <!--Menu navegação-->
+            <nav class="cabecalho__menuNavegacao">
+
+                <!--Lista de links-->
+                <ul class="cabecalho__menuLista">
+                    <li class="cabecalho__menuitem">
+                        <img src="./assets/img/Home.png" alt="">
+                        <a href="">Página Inicial</a>
+                    </li>
+                    <li class="cabecalho__menuitem">
+                        <img src="./assets/img/Hashtag.png" alt="">
+                        <a href="">Explorar</a>
+                    </li>
+                    <li class="cabecalho__menuitem">
+                        <img src="./assets/img/Notification.png" alt="">
+                        <a href="">Notificações</a>
+                    </li>
+                    <li class="cabecalho__menuitem">
+                        <img src="./assets/img/Group.png" alt="">
+                        <a href="">Itens salvos</a>
+                    </li>
+                    <li class="cabecalho__menuitem">
+                        <img src="./assets/img/Group (2).png" alt="">
+                        <a href="">Listas</a>
+                    </li>
+                    <li class="cabecalho__menuitem">
+                        <img src="./assets/img/profile1.png" alt="">
+                        <a href="">Perfil</a>
+                    </li>
+                    <li>
+                        <img src="./assets/img/Group (3).png" alt="">
+                        <a href="">Mais</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!--CONTEÚDO PRINCIPAL-->
+        <main class="conteudoPrincipal">
+
+            <!--FÓRMULARIO-->
+            <h3 class="conteudoPrincipal__titulo">Home</h3>
+            <form action="#"  class="conteudoPrincipa__formulario">
+                <textarea name="textoTweet" id="textoTweet" placeholder="O que está acontecendo?" ></textarea>
+                <button type="submit">Tweetar</button>
+            </form>
+
+            <!--FEED DE NOTÍCIAS-->
+            <section class="conteudoPrincipal__feed">
+
+                <!--LISTA DE NOTÍCIAS-->
+                <ul class="conteudoPrincipal__listaTweets">
+
+                    <!--NOTÍCIA-->
+                    <li class="conteudoPrincipal__tweet">
+
+                        <!--IMAGEM DO USUÁRIO-->
+                        <img class="tweet__fotoPerfil" src="./assets/img/profile1.png" alt="">
+
+                        <!--CAIXA DE INFORMAÇÕES DO USURAIO-->
+                        <div class="tweet__conteudo">
+                            <h2>Jean Costa</h2>
+                            <span>@jean.dev</span>
+                            <p>A persistência é o caminho do êxito.</p>
+                        </div>
+                    </li>
+                    <li class="conteudoPrincipal__tweet">
+
+                        <!--IMAGEM DO USUÁRIO-->
+                        <img class="tweet__fotoPerfil" src="./assets/img/profile1.png" alt="">
+
+                        <!--CAIXA DE INFORMAÇÕES DO USURAIO-->
+                        <div class="tweet__conteudo">
+                            <h2>Jean Costa</h2>
+                            <span>@jean.dev</span>
+                            <p>As pessoas costumam dizer que a motivação não dura sempre. Bem, nem o efeito do banho, por isso recomenda-se diariamente.
+
+                                Zig Ziglar</p>
+                        </div>
+                    </li>
+                    <li class="conteudoPrincipal__tweet">
+
+                        <!--IMAGEM DO USUÁRIO-->
+                        <img class="tweet__fotoPerfil" src="./assets/img/profile1.png" alt="">
+
+                        <!--CAIXA DE INFORMAÇÕES DO USURAIO-->
+                        <div class="tweet__conteudo">
+                            <h2>Jean Costa</h2>
+                            <span>@jean.dev</span>
+                            <p>Motivação é a arte de fazer as pessoas fazerem o que você quer que elas façam porque elas o querem fazer.
+
+                                Dwight Eisenhower</p>
+                        </div>
+                    </li>
+                    <li class="conteudoPrincipal__tweet">
+
+                        <!--IMAGEM DO USUÁRIO-->
+                        <img class="tweet__fotoPerfil" src="./assets/img/profile1.png" alt="">
+
+                        <!--CAIXA DE INFORMAÇÕES DO USURAIO-->
+                        <div class="tweet__conteudo">
+                            <h2>Jean Costa</h2>
+                            <span>@jean.dev</span>
+                            <p>A verdadeira motivação vem de realização, desenvolvimento pessoal, satisfação no trabalho e reconhecimento.
+
+                                Frederick Herzberg</p>
+                        </div>
+                    </li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </section>
+        </main>
+        
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
